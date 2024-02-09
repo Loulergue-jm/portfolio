@@ -3,6 +3,9 @@
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
+.not-found {
+  color: red !important;
+}
 h1 {
   font-size: 25px;
 }

@@ -6,20 +6,11 @@ import { LanguageContext } from "../App";
 import { useTranslation } from "react-i18next";
 
 function Navbar() {
-  //  const t = useTranslation();
   const myTheme = useContext(ThemeContext);
   const myLang = useContext(LanguageContext);
 
   const { t, i18n } = useTranslation();
-  /*
-  const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
-  };
-  
-  useEffect(() => {
-    changeLanguage("en");
-  }, []);
-*/
+
   return (
     <div className="nav align underline">
       <h1 className="navbar-brand mx-2">{t("brand")}</h1>
